@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soul Verse</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts CDN -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-md navbar-dark fixed-top bg-light p-0"
+        aria-label="Fourth navbar example"
+      >
+        <div class="container-fluid p-0">
+          <a class="navbar-brand mt-2 mt-sm-1" href="./index.html">
+            <!-- Navbar Image -->
+            <img
+              class="img-fluid navbar-logo h-25 w-75 mb-2 mx-1"
+              src="./images/Screenshot_2025-02-12_215417-removebg-preview (1).png"
+              alt=""
+          /></a>
+          <!-- Navbar Humberger -->
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample04"
+            aria-controls="navbarsExample04"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse bg-light" id="navbarsExample04">
+            <!-- Navbar Links -->
+            <ul
+              class="navbar-nav me-auto mb-2 gap-3 mb-md-0 pt-1 ms-3 ms-sm-0 mt-0"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link text-black cta fw-bold cursor colour "
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link cta text-black fw-bold cursor colour"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./Contact.html" class="nav-link cta text-black fw-bold cursor colour "
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cta text-black fw-bold cursor colour"
+                  >Favorite</a
+                >
+              </li>
+            </ul>
+            <!-- Toggle Dark & Light Mode -->
+            <label class="switch mx-3">
+              <input id="input" type="checkbox" checked="darkTheme" />
+              <div class="slider round">
+                <div class="sun-moon">
+                  <svg id="moon-dot-1" class="moon-dot" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="moon-dot-2" class="moon-dot" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="moon-dot-3" class="moon-dot" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="light-ray-1" class="light-ray" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="light-ray-2" class="light-ray" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="light-ray-3" class="light-ray" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+
+                  <svg id="cloud-1" class="cloud-dark" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="cloud-2" class="cloud-dark" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="cloud-3" class="cloud-dark" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="cloud-4" class="cloud-light" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="cloud-5" class="cloud-light" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                  <svg id="cloud-6" class="cloud-light" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50"></circle>
+                  </svg>
+                </div>
+                <div class="stars">
+                  <svg id="star-1" class="star" viewBox="0 0 20 20">
+                    <path
+                      d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                    ></path>
+                  </svg>
+                  <svg id="star-2" class="star" viewBox="0 0 20 20">
+                    <path
+                      d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                    ></path>
+                  </svg>
+                  <svg id="star-3" class="star" viewBox="0 0 20 20">
+                    <path
+                      d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                    ></path>
+                  </svg>
+                  <svg id="star-4" class="star" viewBox="0 0 20 20">
+                    <path
+                      d="M 0 10 C 10 10,10 10 ,0 10 C 10 10 , 10 10 , 10 20 C 10 10 , 10 10 , 20 10 C 10 10 , 10 10 , 10 0 C 10 10,10 10 ,0 10 Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <div
+        class="container d-flex flex-column flex-md-row align-items-start justify-content-between text-center text-md-start"
+      >
+        <!-- Main Left Side Div -->
+        <div class="main-content-div ">
+          <h2 style="color: #6f2dbd" class="heading">
+            Let the Quran Speak to Your Heart
+          </h2>
+          <p style="color: #666666" class="para">
+            No matter what you’re going through, the Quran has a message for
+            you. Just choose your mood, and let the divine words bring clarity,
+            comfort, and inspiration.
+            
+          </p>
+          <p class="cursor1 typewriter-animation ">What your Mood Today!</p>
+          <a style="color: #6f2dbd"class="btn fw-bold  border border-1 px-2 " id="started">Get started</a>
+           
+        
+         
+        </div>
+
+
+        <!-- Main Right Side Div -->
+
+        <div class="img-cont " >
+
+          <img
+            src="./images/b217b7a2-ac66-4cfe-bedb-d264fc10d9f1.png"
+            class="img-fluid men-img" />
+        </div>
+      </div>
+      
+
+      <!-- Mood Select Options -->
+      <h2  style="color: #6f2dbd" class="text-center fw-bold main-heading mt-5 mt-lg-5">
+        Select what you feel Today!
+    </h2>
+    <div class="container py-4   " >
+      <div class="row g-3 d-flex justify-content-center  ">
+        <div class="col-6 col-lg-2 gallery-item cursor ">
+          <img src="./images/Happiness1.jpg" data-mood="Happiness" class="img-fluid gallery-img mood-btn shadow-lg" alt="Happiness">
+          <div class="mood-text">Happiness</div>
+        </div>
+        <div class="col-6 col-lg-2 gallery-item cursor">
+          <img src="./images/Thankfull1.jpg" data-mood="Thankful" class="img-fluid gallery-img mood-btn shadow-lg" alt="Thankful">
+          <div class="mood-text">Thankful</div>
+        </div>
+        <div class="col-6 col-lg-2 gallery-item cursor">
+          <img src="./images/Angry1.jpg"  data-mood="Angry" class="img-fluid gallery-img mood-btn shadow-lg" alt="Angry">
+          <div class="mood-text">Angry</div>
+        </div>
+        <div class="col-6 col-lg-2 gallery-item cursor">
+          <img src="./images/Anxious1.jpg" data-mood="Anxious" class="img-fluid gallery-img mood-btn shadow-lg" alt="Anxious">
+          <div class="mood-text" >Anxious</div>
+        </div>
+        <div class="col-6 col-lg-2 gallery-item cursor"  >
+          <img src="./images/Sad2.jpg" data-mood="Sad"    class="img-fluid  gallery-img mood-btn shadow-lg" alt="Sad">
+          <div id="targetSection"  ></div>
+
+          <div  id="AnxiousSection"  class="mood-text">Sad</div>
+        </div>
+      </div>
+    </div>
+    
+  
+    
+  
+    <div class="cont"   ></div>
+      <div  class="Ayat-div bg-white shadow-lg rounded-3 p-4 text-center w-100 mt-3" id="ayat-box">
+     
+    </div>
+   
+  </div>  
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eveniet maiores molestias, veniam voluptate possimus eligendi, dicta eaque illo labore, animi obcaecati! Est laborum quia accusantium vero, possimus culpa eveniet?
+  In quia dolorum nam similique, nemo sit aspernatur facere animi tenetur perferendis reprehenderit itaque voluptatum veritatis perspiciatis error, labore quos dolores placeat quaerat tempora, rerum delectus illum molestiae consequuntur! Deleniti?
+  Incidunt voluptate dolore quas, veniam ab earum quo, sequi consequatur voluptatibus, praesentium consectetur error voluptas inventore id nobis nesciunt. Eaque nisi et expedita sapiente veniam ea culpa eum veritatis cupiditate?
+  Quo totam iste sint rerum, expedita, fugit, cupiditate quia omnis odio sed nesciunt unde nulla? Ipsam, quas. Voluptatem illum repellendus nostrum laboriosam est? Labore autem in doloremque excepturi officiis perferendis!
+  Ab repellendus doloremque mollitia corporis rem illum! Nulla commodi sint dicta unde delectus nesciunt reiciendis. Dolor aliquid officia iste ut cum atque minima? Saepe consequatur impedit dolore earum, ducimus voluptates.
+  Repellat voluptas in voluptate eveniet cumque numquam explicabo at consequatur necessitatibus? Non commodi exercitationem reiciendis, nam nobis suscipit adipisci iusto optio voluptate architecto id, beatae quidem deserunt ea debitis eum?
+  Amet doloribus iusto iure provident sint. Molestiae est delectus non doloremque ea ipsa, explicabo dicta nostrum magnam blanditiis sit. Hic fugit itaque, laboriosam doloremque vero molestias recusandae quaerat suscipit cum?
+  Iure nobis, unde ipsum est neque maxime et voluptatem dolorem consectetur odio quia, modi quibusdam eaque ad, reprehenderit quaerat illum amet. Culpa a quia nisi earum? Ipsa neque veniam sed.
+  Eius tempore dolorem libero provident quidem ad facilis dignissimos, voluptatum eum debitis neque a aliquid, voluptas nihil optio quae quo quos necessitatibus ipsam atque doloribus? Beatae, ad? Quo, numquam optio.
+  Quisquam odit autem qui tempora. Veniam vel distinctio facere a eos commodi quae alias eligendi similique dicta odio molestias officia laborum et ipsam, tempore deserunt porro reiciendis, incidunt maxime doloremque?
+  Praesentium quo rem illo a provident eum ipsum officiis dolores pariatur ea, optio possimus! Ipsa dolorum maiores quam esse, perspiciatis voluptatibus ipsam eos voluptatum dignissimos numquam necessitatibus iusto laudantium. Esse.
+  Animi ea qui expedita fugiat ipsum, architecto, eius quo ex nihil, eaque recusandae odio adipisci doloremque voluptas? Inventore, et, debitis dolore odit tempora enim, nesciunt quos adipisci obcaecati qui sunt.
+  Eius expedita laudantium repellat doloribus assumenda minima corrupti ipsam animi delectus, quisquam, explicabo adipisci illo excepturi quidem quam dicta aspernatur vel incidunt deleniti architecto, ab dolor perspiciatis aliquam. Nostrum, perferendis.
+  Sunt deserunt suscipit sint ab molestiae molestias animi necessitatibus fugit consequuntur porro, adipisci vitae ducimus nulla. Recusandae aspernatur sapiente itaque doloribus veritatis! Sed explicabo omnis eligendi molestias veritatis nam quis.
+  Ipsam consequatur quae, tempora quod minus culpa delectus, atque dicta qui ex dolor accusantium harum corrupti fugit numquam amet neque velit architecto? Exercitationem tenetur fugit repellendus illum, saepe eveniet ex?
+  Rem ratione dolorum alias sed nemo omnis voluptate incidunt optio repellendus voluptates suscipit atque aliquid vitae impedit expedita iusto, consequuntur laboriosam tempora. Harum nemo aliquid, pariatur asperiores dolorum a vitae.
+  Aspernatur voluptates accusantium, veniam laborum expedita quos eos voluptatum ut saepe perspiciatis, vel commodi. Ex, temporibus vero! Repudiandae facere veritatis iusto fugiat inventore fuga, mollitia explicabo voluptatibus facilis esse? Recusandae.
+  Ipsa ea illo aspernatur sint neque vero tempore similique est nam eos distinctio, accusantium quaerat officiis tenetur ut soluta fugiat deleniti nemo magnam voluptate consequuntur eum quasi? Nihil, optio quod.
+  Placeat incidunt, mollitia nam eligendi reprehenderit, suscipit quod rerum repellendus ex, possimus tempora. Dolores repellendus rerum nemo ullam. Facilis eius non officia. Sint illo cupiditate in commodi corporis, voluptas dicta!
+  Itaque, corrupti? Quia saepe laborum doloremque deleniti recusandae dignissimos? Velit nemo quas necessitatibus praesentium saepe enim eum inventore recusandae accusantium ratione quia dignissimos, corrupti magni dicta cupiditate at sapiente tenetur.
+  Atque aliquam animi culpa dignissimos. Voluptates qui rem repellendus deleniti doloribus, blanditiis ipsum ex porro. Cum animi, iusto error laudantium neque pariatur culpa facilis atque libero soluta debitis exercitationem praesentium.
+  Consectetur eligendi sint excepturi porro esse velit praesentium dolor numquam ducimus! Quod atque corrupti porro iste recusandae, vero ex amet repudiandae error voluptate, doloribus consequuntur unde provident dicta, laudantium nostrum!
+  Aliquam blanditiis cumque consectetur repellendus maiores veniam harum corrupti obcaecati excepturi nihil eos explicabo nisi rem quasi quod vitae inventore itaque voluptatum hic, iure dolorum placeat? Natus quas illum quam.
+  Alias blanditiis consequatur necessitatibus adipisci praesentium ipsa mollitia, repellat porro perferendis nisi tenetur harum qui autem enim fugiat reiciendis cum omnis possimus fugit excepturi distinctio rem quam! Animi, facilis perspiciatis.
+  Numquam dolore blanditiis aspernatur exercitationem itaque, voluptate consequuntur beatae vero necessitatibus? Porro voluptatum est illo quam aliquam eos optio. Nesciunt quo, voluptates iure tempore vitae id? Dignissimos voluptate cupiditate voluptatibus!
+  Aut, amet iure dicta est corporis quidem molestias tenetur nesciunt officia quo culpa veniam, natus dolorem error odio fuga velit alias sunt. Dignissimos quae velit hic qui repellendus explicabo voluptas.
+  Et at, quisquam illo ea neque magnam, tempore doloribus, corporis architecto obcaecati rerum sit blanditiis. Quisquam impedit eaque sunt eius dolorum ducimus enim optio modi officiis eos! Corrupti, ratione voluptatem.
+  Mollitia repellat labore deserunt incidunt qui corporis at praesentium vero dolorum, aperiam adipisci assumenda nemo harum minus nisi doloribus animi, fugit ea libero, eaque explicabo dolores! Libero eaque aliquam ullam.
+  Quia ad aliquam est inventore in animi facere iste, nesciunt aperiam eveniet minima pariatur molestiae unde consectetur a tempora quas esse id eius molestias saepe eum laboriosam, quam autem? Similique!
+  Provident non error dolore voluptates nisi, odio a. Pariatur illo voluptas deleniti aliquam explicabo. Culpa hic, delectus, veniam quae vel natus sapiente similique quia consequatur minima doloremque possimus dolore quas!
+  Officia, odit. Atque nam labore dolorem quae repellendus voluptatibus consequatur! Blanditiis impedit beatae quod nesciunt eos doloribus illo quos dolores laudantium cupiditate, quidem minus maiores suscipit, eum quis distinctio error!
+  Labore quod error necessitatibus, odio esse voluptatem, illo asperiores voluptatum repudiandae dolorem aliquam fugiat et sequi, laborum corrupti officia temporibus odit fuga sunt dolores illum totam cum nam! Quibusdam, repudiandae!
+  Harum at libero sit eius possimus? Dolore porro distinctio eligendi necessitatibus ipsam, est, reiciendis saepe, tempore quibusdam deserunt aliquid delectus ab ratione nam odit cupiditate blanditiis! Ipsum aliquid architecto natus.
+  Autem repellat similique amet assumenda sit! Minima, ab, quas molestiae laudantium expedita iste ipsam necessitatibus nobis earum pariatur animi reprehenderit quaerat! Eos aliquam soluta reprehenderit eveniet eaque quam culpa facilis.
+  Perspiciatis nam consequuntur voluptas minima eaque error asperiores rem ex impedit, quia quibusdam tempora eos ad qui beatae, nostrum consectetur quis aperiam nemo temporibus voluptatum accusamus, a pariatur. Saepe, amet?
+  Perspiciatis quidem ipsa maiores adipisci veniam, mollitia reiciendis voluptate vero assumenda eaque iure. Reprehenderit repellat enim impedit accusantium in, sit magni. Molestiae accusantium dicta minima at sed. Quae, sed nobis!
+  Suscipit distinctio laudantium voluptates, praesentium ducimus, deserunt, reprehenderit enim animi architecto omnis ratione possimus necessitatibus? Dignissimos quidem soluta necessitatibus iste culpa aliquid! Ut, deserunt. Distinctio tempore molestias unde accusantium pariatur.
+  Impedit ea maxime itaque voluptatibus pariatur omnis a dolor atque beatae laboriosam. Quisquam vel non nesciunt illum, debitis dolor vitae voluptatem ratione ea, repellat enim possimus veniam a et perspiciatis!
+  Amet soluta sint quidem quis vel? Repellat minima reprehenderit est perspiciatis culpa veritatis corporis provident dolores voluptatem quidem accusantium tempore ullam voluptates repudiandae suscipit veniam id, consectetur ad odio labore!
+  Provident ipsam ab veniam eaque similique quis illo corrupti placeat, minima maxime eligendi nesciunt quod vero ut nisi sequi fuga quos totam dicta dignissimos doloribus neque iure! Quasi, vitae aperiam!
+  Culpa debitis iure repellendus inventore doloremque quos, dolore error. Consequuntur excepturi illo necessitatibus ad dolor, illum blanditiis repellendus eius quaerat, adipisci voluptatem aperiam nisi architecto ut nesciunt odit quis repellat.
+  Doloribus, recusandae quibusdam, ratione enim aliquam et ipsum eaque cupiditate officiis amet voluptates cumque adipisci. Asperiores distinctio quaerat, facere reiciendis quas quam laboriosam sit, accusantium quia repellendus dolorum id praesentium.
+  Odit ipsam et eveniet fugit saepe consequuntur ipsum repudiandae tenetur distinctio praesentium quam, eos animi, debitis nam reprehenderit facilis quidem corrupti nesciunt! Reprehenderit recusandae assumenda, ipsum eligendi qui aspernatur voluptate!
+  Rerum, libero aliquid ea iusto ex quibusdam, natus nesciunt unde error ut inventore, pariatur odit earum? Cupiditate tempora architecto inventore. Possimus doloribus minima magni vitae libero cupiditate accusantium et error!
+  Cupiditate illum molestias nemo officia non porro iste, sed temporibus expedita magnam minus dolorum officiis optio voluptates quasi magni incidunt velit asperiores necessitatibus reprehenderit itaque. Quo ratione accusamus nisi at!
+
+  
+  <!-- <audio id="myAudio">
+    <source src="audio.wav" type="audio/mpeg">
+    Aapka browser audio element ko support nahi karta.
+  </audio>
+  <button id="playButton">Play</button> -->
+    
+    </main>
+    
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+      integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Anime.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./Action.js"></script>
+  </body>
+</html>
