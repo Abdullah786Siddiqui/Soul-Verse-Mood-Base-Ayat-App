@@ -9,7 +9,7 @@
      "translation_eng":"Say, ˹O Prophet, that Allah says,˺ “O My servants who have exceeded the limits against their souls! Do not lose hope in Allah’s mercy, for Allah certainly forgives all sins.1 He is indeed the All-Forgiving, Most Merciful.",
      "translation_urdu": "کہہ دو: اے میرے بندو! جنہوں نے اپنی جانوں پر زیادتی کی ہے، اللہ کی رحمت سے مایوس نہ ہو، بے شک اللہ سب گناہ معاف کر دیتا ہے، وہ بے شک بخشنے والا اور مہربان ہے۔"
   },{
-     "id": 1,
+     "id": 2,
      "category": "Sad",
      "para": 3,
      "surah": "Al-Imran",
@@ -18,7 +18,7 @@
      "translation_urdu": "تو تم غمگین نہ ہو، تم ہی غالب رہو گے اگر تم ایمان رکھتے ہو"
   },
   {
-    "id": 1,
+    "id": 3,
     "category": "Sad",
     "para": 12,
     "surah": "Al-Yousuf",
@@ -27,7 +27,7 @@
     "translation_urdu": "بے شک اللہ کی رحمت سے وہی مایوس ہوتے ہیں جو کافر ہیں۔"
  },
   {
-    "id": 1,
+    "id": 4,
     "category": "Sad",
     "para": 3,
     "surah": "At-Toba",
@@ -36,7 +36,7 @@
     "translation_urdu": "مومنوں کوتواللہ تعالٰی کی ذات  پاک  پر ہی بھروسہ کرنا چاہیے" 
  },
  {
-  "id": 1,
+  "id": 5,
   "category": "Sad",
   "para": 14,
   "surah": "Al-Hajr",
@@ -55,7 +55,7 @@
   "translation_urdu":"اور اے شخص! اپنے رب کی  یاد  کیا کر اپنے  دل  میں  عاجزی  کے ساتھ اور خوف کے ساتھ اور زور کی  آواز  کی نسبت  کم  آوازکے ساتھ صبح اور  شام  اور اہل غفلت میں سے مت ہونا ۔"
 },
   {
-    "id": 2,
+    "id": 7,
     "category": "Anxious",
     "para": 13,
     "surah": "Ar-Ra’d ",
@@ -64,7 +64,7 @@
     "translation_urdu": "جو لوگ ایمان لائے اور ان کے دل اللہ کے ذکر سے چین پاتے ہیں، سن لو! اللہ ہی کے ذکر سے دلوں کو چین ملتا ہے"
  },
  {
-  "id": 2,
+  "id": 8,
   "category": "Anxious",
   "para": 3,
   "surah": "Ar-Imran ",
@@ -73,7 +73,7 @@
   "translation_urdu": "اللہ ہمارے لیے کافی ہے اور وہ بہترین کارساز ہے۔"
 },
  {
-  "id": 3,
+  "id": 9,
   "category": "Anxious",
   "para": 11,
   "surah": "At-Toba",
@@ -82,7 +82,7 @@
   "translation_urdu": "غم نہ کھا، بے شک اللہ ہمارے ساتھ ہے۔"
 },
 {
-  "id": 3,
+  "id": 10,
   "category": "Anxious",
   "para": 9,
   "surah": "Al-Anfal",
@@ -91,7 +91,7 @@
   "translation_urdu":"اور صبر کرو، بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔"
 },
 {
-  "id": 4,
+  "id": 11,
   "category": "Anxious",
   "para": 26,
   "surah": "Ash-Sharh",
@@ -100,7 +100,7 @@
   "translation_urdu": "بے شک ہر مشکل کے بعد آسانی ہے، ہر تکلیف کے بعد راحت ہے۔"
 },
 {
-  "id": 5,
+  "id": 12,
   "category": "Anxious",
   "para": 1,
   "surah": "Al-Baqarah",
@@ -109,7 +109,7 @@
   "translation_urdu": "اللہ کسی جان پر بوجھ نہیں ڈالتا مگر اس کی طاقت کے مطابق"
 },
 {
-  "id": 6,
+  "id": 13,
   "category": "Anxious",
   "para": 28,
   "surah": "At-Talaq",
@@ -118,7 +118,7 @@
   "translation_urdu": "اور جو اللہ پر بھروسہ کرے تو وہ اسے کافی ہے۔"
 },
 {
-  "id": 6,
+  "id": 14,
   "category": "Anxious",
   "para": 14,
   "surah": "An-Nahl",
@@ -127,7 +127,7 @@
   "translation_urdu": "اور صبر کرو، اور تمہارا صبر صرف اللہ کی مدد سے ہے، اور ان لوگوں کی سازشوں پر غم نہ کرو اور نہ ہی دل تنگ کرو۔"
 },
 {
-  "id": 6,
+  "id": 15,
   "category": "Anxious",
   "para": 11,
   "surah": "At-Toba",
@@ -136,7 +136,7 @@
   "translation_urdu": "کہو! ہمیں ہرگز کوئی تکلیف نہیں پہنچ سکتی، مگر وہی جو اللہ نے ہمارے لیے لکھ دی ہے، وہی ہمارا مالک ہے، اور مومنوں کو اللہ ہی پر بھروسہ کرنا چاہیے۔"
 },
 {
-  "id": 3,
+  "id": 16,
   "category": "Angry",
   "para": 7,
   "surah": "Al-A'raf",
@@ -145,7 +145,7 @@
   "translation_urdu": "معاف کردو، اچھے کاموں کا حکم دو، اور جاہلوں سے منہ موڑ لو۔"
 },
 {
-  "id": 3,
+  "id": 17,
   "category": "Angry",
   "para": 3,
   "surah": "Al-Imran",
@@ -155,7 +155,7 @@
 },
 
 {
-  "id": 3,
+  "id": 18,
   "category": "Angry",
   "para": 18,
   "surah": "Al-Furqan",
@@ -169,7 +169,7 @@
 
 
 {
-  "id": 6,
+  "id": 19,
   "category": "Happiness",
   "para": 28,
   "surah": "Al-Anfal",
@@ -178,7 +178,7 @@
   "translation_urdu":"وہ سچے مومن ہیں۔ ان کے لیے ان کے رب کے ہاں بلند مرتبے ہیں اور مغفرت اور رحمت ہے، اور اللہ بڑا معاف کرنے والا، رحم کرنے والا ہے۔"
 },
 {
-  "id": 3,
+  "id": 20,
   "category": "Happiness",
   "para": 14,
   "surah": "An-Nahl",
@@ -189,7 +189,7 @@
 
 },
 {
-  "id": 3,
+  "id": 21,
   "category": "Happiness",
   "para": 11,
   "surah": "An-Yunus",
@@ -199,7 +199,7 @@
 
 },
 {
-  "id": 6,
+  "id": 22,
   "category": "Happiness",
   "para": 4,
   "surah": "An-Nisa ",
@@ -210,7 +210,7 @@
 
 },
 {
-  "id": 6,
+  "id": 23,
   "category": "Thankful",
   "para": 13,
   "surah": "Ibrahim ",

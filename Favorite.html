@@ -12,7 +12,13 @@
       crossorigin="anonymous"
     />
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Google Fonts CDN -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
@@ -21,7 +27,7 @@
     <!-- CSS File Link -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body id="body">
     <!-- Header Section -->
     <header>
       <!-- Navbar -->
@@ -57,8 +63,8 @@
             >
               <li class="nav-item">
                 <a
-                  class="nav-link text-black cta fw-bold cursor colour  "
-                 href="./index.html"
+                  class="nav-link text-black cta fw-bold cursor colour"
+                  href="./index.html"
                   >Home</a
                 >
               </li>
@@ -70,14 +76,16 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link cta text-black fw-bold cursor colour "
-                href="./Contact.html"
-
+                <a
+                  href="./Contact.html"
+                  class="nav-link cta text-black fw-bold cursor colour"
                   >Contact</a
                 >
               </li>
               <li class="nav-item">
-                <a  href="./Favorite.html" class="nav-link cta text-black fw-bold cursor colour"
+                <a
+                  href="./Favorite.html"
+                  class="nav-link cta text-black fw-bold cursor colour"
                   >Favorite</a
                 >
               </li>
@@ -154,68 +162,16 @@
       </nav>
     </header>
 
-
-  <!-- Contact Us Header -->
-  <header class="contact-header">
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you! Please fill out the form below or contact us directly.</p>
-  </header>
-
-  <!-- Main Section -->
-  <div class="container my-5">
-    <div class="row g-4">
-      <!-- Contact Details -->
-      <div class="col-md-4">
-        <div class="contact-details">
-          <h5>Contact Information</h5>
-          <p><strong>Address:</strong> 123 Street, Islamic City</p>
-          <p><strong>Email:</strong> info@SoulVerse.com</p>
-          <p><strong>Phone:</strong> +1 (234) 567-890</p>
-          <p><strong>Working Hours:</strong> Mon-Fri, 9AM - 6PM</p>
-        </div>
+    <main>
+      <h1 class="text-center mt-3">Your Favorite Ayat here</h1>
+      <div class="container">
+        <div id="favorite-page" class="text-center"></div>
       </div>
+      <div id="favorite-empty" class="d-flex justify-content-center align-items-center vh-100 "></div>
+    </main>
 
-      <!-- Contact Form -->
-      <div class="col-md-8">
-        <h5 style="color: #6f2dbd" class="text-center fw-bold fs-3">Send Us a Message</h5>
-        <form id="contact-form" >
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name" >
-      <small class="text-danger" id="error-name"></small>
-
-
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email" >
-      <small class="text-danger" id="error-email"></small>
-
-          </div>
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
-      <small class="text-danger" id="error-subject"></small>
-
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Your Message</label>
-            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here" ></textarea>
-      <small class="text-danger" id="error-textarea"></small>
-
-          </div>
-          <button type="submit"  style="background-color: #6f2dbd"   class="btn text-white submit">Submit</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  
-
-  
-  </div>
-
-  <script
+    <!-- Bootstrap JS CDN -->
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
       integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
       crossorigin="anonymous"
