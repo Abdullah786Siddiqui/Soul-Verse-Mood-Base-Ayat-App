@@ -599,3 +599,20 @@ to { border-right-color: transparent; }
   width: 100px;
 }
 
+.accordion-collapse {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(50px) scale(0.95); /* Pehle content neeche aur thoda chhota hoga */
+  transition: max-height 0.6s ease-in-out, 
+              opacity 0.6s ease-in-out, 
+              transform 0.6s ease-in-out;
+}
+
+.accordion-collapse.show {
+  max-height: 1000px; /* Adjust according to content */
+  opacity: 1;
+  transform: translateY(0) scale(1); /* Content smoothly upar aayega aur normal size ho jayega */
+}
+
+

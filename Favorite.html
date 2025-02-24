@@ -18,7 +18,10 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+    /> 
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
     <!-- Google Fonts CDN -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
@@ -164,11 +167,107 @@
 
     <main>
       <h1 class="text-center mt-3">Your Favorite Ayat here</h1>
-      <div class="container">
-        <div id="favorite-page" class="text-center"></div>
+
+      <div class="accordion accordion-flush border border-3" id="accordionFlushExample">
+  
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-2 favbtn"
+              type="button"
+              data-mood="Happiness"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              😀 Happiness
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body text-center" id="Happiness"></div>
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-2 favbtn"
+              type="button"
+              data-mood="Angry"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              😡 Angry
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body text-center" id="Angry"></div>
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-2 favbtn"
+              type="button"
+              data-mood="Thankful"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              🫂 Thankful
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body text-center" id="Thankful"></div>
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-2 favbtn"
+              type="button"
+              data-mood="Sad"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              😢 Sad
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body text-center" id="Sad"></div>
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-2 favbtn"
+              type="button"
+              data-mood="Excited"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+            😥 Anxious
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body text-center" id="Anxious"></div>
+          </div>
+        </div>
+      
       </div>
-      <div id="favorite-empty" class="d-flex justify-content-center align-items-center vh-100 "></div>
-    </main>
+      </main>
+      
 
     <!-- Bootstrap JS CDN -->
     <script
