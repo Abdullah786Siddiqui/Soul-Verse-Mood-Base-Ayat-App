@@ -30,7 +30,7 @@
     <!-- CSS File Link -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body id="body">
+  <body id="body" style="background-color: whitesmoke;">
     <!-- Header Section -->
     <header>
       <!-- Navbar -->
@@ -166,108 +166,137 @@
     </header>
 
     <main>
-      <h1 class="text-center mt-3">Your Favorite Ayat here</h1>
+      <h1 style="color: #6f2dbd" class="text-center mt-3">Your Favorite Ayat here</h1>
 
-      <div class="accordion accordion-flush border border-3" id="accordionFlushExample">
+      <div class="accordion accordion-flush border border-3 contify" id="accordionFlushExample">
   
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed fs-2 favbtn"
-              type="button"
-              data-mood="Happiness"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
-            >
-              😀 Happiness
-            </button>
+              <button style="background-color: #d0e9e3;" class="accordion-button collapsed fs-5 favbtn d-flex align-items-center text-start" 
+                  type="button" data-mood="Happiness"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" 
+                  aria-expanded="false" aria-controls="flush-collapseOne">
+                  
+                  <!-- Image Left Side -->
+                  <img src="./images/Happiness1.jpg" 
+                  class="img-fluid w-100 gallery-img mood-btn shadow-lg me-3 object-fit-cover rounded" 
+                  alt="Happiness" style="aspect-ratio: 1/1; max-width: 100px;">
+      
+                  <!-- Quote (Text Wrapping & Proper Spacing) -->
+                  <span class="fw-semibold flex-grow-1 text-muted">
+                      The happiest people don't have the best of everything, they make the best of everything.
+                  </span>
+      
+              </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body text-center" id="Happiness"></div>
+              <div class="accordion-body text-center" id="Happiness"></div>
           </div>
-        </div>
+      </div>
       
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed fs-2 favbtn"
-              type="button"
-              data-mood="Angry"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo"
-              aria-expanded="false"
-              aria-controls="flush-collapseTwo"
-            >
-              😡 Angry
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body text-center" id="Angry"></div>
-          </div>
-        </div>
+
       
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed fs-2 favbtn"
-              type="button"
-              data-mood="Thankful"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
-              aria-expanded="false"
-              aria-controls="flush-collapseThree"
-            >
-              🫂 Thankful
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body text-center" id="Thankful"></div>
-          </div>
-        </div>
       
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed fs-2 favbtn"
-              type="button"
-              data-mood="Sad"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseFour"
-              aria-expanded="false"
-              aria-controls="flush-collapseFour"
-            >
-              😢 Sad
-            </button>
-          </h2>
-          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body text-center" id="Sad"></div>
-          </div>
-        </div>
       
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed fs-2 favbtn"
-              type="button"
-              data-mood="Excited"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseFive"
-              aria-expanded="false"
-              aria-controls="flush-collapseFive"
-            >
-            😥 Anxious
-            </button>
-          </h2>
-          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body text-center" id="Anxious"></div>
-          </div>
-        </div>
+    
+
+
+<!-- 2. Sadness -->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+      <button style="background-color: #d8cdc9;"  class="accordion-button collapsed fs-5 favbtn d-flex align-items-center text-start" 
+          type="button" data-mood="Sadness"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" 
+          aria-expanded="false" aria-controls="flush-collapseTwo">
+          
+          <img src="./images/Sad2.jpg"  class="img-fluid w-100 gallery-img mood-btn shadow-lg me-3 object-fit-cover rounded" 
+              alt="Sadness" style="aspect-ratio: 1/1; max-width: 100px;">
+              
+         
+
+          <span class="fw-semibold flex-grow-1">
+              "Do not grieve; indeed, Allah is with us." (Quran 9:40)
+          </span>
+
+      </button>
+  </h2>
+  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center" id="Sad"></div>
+  </div>
+</div>
+
+<!-- 3. Patience (Sabr) -->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+      <button style="background-color: #d3c4a7;" class="accordion-button collapsed fs-5 favbtn d-flex align-items-center text-start" 
+          type="button" data-mood="Patience"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" 
+          aria-expanded="false" aria-controls="flush-collapseThree">
+          
+         
+              <img src="./images/Anxious1.jpg"  class="img-fluid w-100 gallery-img mood-btn shadow-lg me-3 object-fit-cover rounded" 
+              alt="Anxious" style="aspect-ratio: 1/1; max-width: 100px;">
+
+          <span class="fw-semibold flex-grow-1">
+              "Indeed, Allah is with those who are patient." (Quran 2:153)
+          </span>
+
+      </button>
+  </h2>
+  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center" id="Anxious"></div>
+  </div>
+</div>
+
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+      <button style="background-color:#B0F8E7;" class="accordion-button collapsed fs-5 favbtn d-flex align-items-center text-start" 
+          type="button" data-mood="Gratitude"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" 
+          aria-expanded="false" aria-controls="flush-collapseFour">
+          
+          
+              <img src="./images/Thankfull1.jpg"  class="img-fluid w-100 gallery-img mood-btn shadow-lg me-3 object-fit-cover rounded" 
+              alt="Thankful" style="aspect-ratio: 1/1; max-width: 100px;">
+
+          <span class="fw-semibold flex-grow-1">
+              "If you are grateful, I will surely increase your favor." (Quran 14:7)
+          </span>
+
+      </button>
+  </h2>
+  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center" id="Thankful"></div>
+  </div>
+</div>
+
+<!-- 5. Peace (Sukoon) -->
+<div class="accordion-item">
+  <h2 class="accordion-header">
+      <button style="background-color: #DCDFD8;"  class="accordion-button collapsed fs-5 favbtn d-flex align-items-center text-start " 
+          type="button" data-mood="Peace"
+          data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" 
+          aria-expanded="false" aria-controls="flush-collapseFive">
+          
+          
+              <img src="./images/Angry1.jpg"  class="img-fluid w-100 gallery-img mood-btn shadow-lg me-3 object-fit-cover rounded" 
+              alt="Angry" style="aspect-ratio: 1/1; max-width: 100px;">
+          <span class="fw-semibold flex-grow-1 ">
+              "He it is who sent down tranquility into the hearts of the believers." (Quran 48:4)
+          </span>
+
+      </button>
+  </h2>
+  <div id="flush-collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-center " id="Angry"></div>
+  </div>
+</div>
+
       
       </div>
       </main>
-      
+   
 
     <!-- Bootstrap JS CDN -->
     <script

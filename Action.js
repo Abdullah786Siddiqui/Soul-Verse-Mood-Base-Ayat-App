@@ -164,7 +164,7 @@ style="${heartIcon ? "color: #ff0808" : "color:  #666666"}"
 
       setTimeout(() => {
         bootstrapModal.hide();
-      }, 700);
+      }, 400);
     });
 
     // next ayat generate krta hey
@@ -275,41 +275,28 @@ toggleSwitch.addEventListener("change", () => {
 });
 
 /// Favorite Page //
-let favoriteItems = JSON.parse(localStorage.getItem("favorites")) || [];
+let favoriteItems = JSON.parse(localStorage.getItem("favorites") || "[]");
 function favoritefunc() {
   let categories = ["Thankful", "Happiness", "Angry", "Anxious", "Sad"];
   categories.forEach((category) => {
     let categorydiv = document.getElementById(category);
-
     if (!categorydiv) return;
+
+    //  console.log(category.length === 0?"hi":"by");
+
+    categorydiv.innerHTML = "";
+
     let FilterAyat = favoriteItems.filter((ayat) => ayat.category === category);
     if (FilterAyat.length === 0) {
-      categorydiv.innerHTML = `<p class="text-muted">No Ayat found for ${category}</p>`;
+      categorydiv.innerHTML = `<p class="text-danger mb-0" id="empty-div">No Ayat found for ${category}</p>`;
       return;
     }
 
     FilterAyat.forEach((Ayat) => {
       let div = document.createElement("div");
+   
 
-      div.innerHTML = `
-    <div class="d-flex justify-content-end mb-3 mt-2">
-    
-    </div>
-    <div class="d-flex justify-content-center align-items-center gap-2">
-      <div class="skeleton skeleton-text" style="width: 50px;"></div>
-      <div class="skeleton skeleton-text" style="width: 80px;"></div>
-    </div>
-    <div class="skeleton skeleton-text" style="height: 40px; width: 90%;"></div>
-    <div class="skeleton skeleton-text" style="height: 20px; width: 95%;"></div>
-    <div class="skeleton skeleton-text" style="height: 20px; width: 90%;"></div>
-    
-    <!-- Buttons -->
-    <div class="mt-4">
-      <div class="skeleton skeleton-button"></div>
-    </div>`;
-      categorydiv.appendChild(div);
-      setTimeout(() => {
-        div.outerHTML = `<div class="favorite-card mt-2 " data-id="${Ayat.id} ">
+      div.innerHTML = `<div class="favorite-card mt-2 " data-id="${Ayat.id}">
                 <!-- Ayah Info -->
                 <div class="d-flex justify-content-center align-items-center gap-2 ">
                   <p class="fs-4 fw-bold text-success mb-0">${Ayat.para}</p>
@@ -336,16 +323,19 @@ function favoritefunc() {
                   </button>
                 </div>
               </div>`;
-      }, 2000);
+
+      categorydiv.appendChild(div);
     });
   });
 }
+
 favoritefunc();
+
 document.addEventListener("click", function (e) {
   if (e.target.classList.contains("remove-btn")) {
     let card = e.target.closest(".favorite-card");
     let ayatID = parseInt(card.getAttribute("data-id")); // Convert to number
-
+    if (!card) return;
     // Remove the ayat from favoriteItems array
     favoriteItems = favoriteItems.filter((ayat) => ayat.id !== ayatID);
 
@@ -364,3 +354,30 @@ if (Scroll) {
     window.scrollTo({ top: 700, behavior: "smooth" });
   });
 }
+
+
+ /// Animation Favorite
+ document.addEventListener("DOMContentLoaded", function () {
+  const accordionButtons = document.querySelectorAll(".accordion-button");
+
+  accordionButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      setTimeout(() => {
+        const targetCollapse = document.querySelector(this.dataset.bsTarget);
+
+        if (targetCollapse.classList.contains("show")) {
+          const navbarHeight = 55; // Fixed navbar height
+          const extraSpacing = 10; // Thoda breathing space dene ke liye
+          const offsetTop = targetCollapse.getBoundingClientRect().top + window.scrollY - navbarHeight - extraSpacing;
+          
+          window.scrollTo({
+            top: offsetTop,
+            behavior: "smooth",
+          });
+        }
+      }, 350); // Transition complete hone ka wait time
+    });
+  });
+});
+
+

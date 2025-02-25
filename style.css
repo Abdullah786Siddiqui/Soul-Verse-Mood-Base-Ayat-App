@@ -1,39 +1,36 @@
 body {
-  font-family:sans-serif;
-  background-color: #F5F3FF;
-  padding-top: 60px !important; 
-
+  font-family: sans-serif;
+  background-color: #f5f3ff;
+  padding-top: 60px !important;
 }
 html {
   scroll-behavior: smooth !important;
 }
-.person{
- filter: drop-shadow(1px 1px 4px #6f2dbd);
+.person {
+  filter: drop-shadow(1px 1px 4px #6f2dbd);
 }
 .navbar-logo {
   max-height: 65px !important;
-
 }
-.navbar-brand{
+.navbar-brand {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
-
 }
 /* Main Image Size */
-.men-img{
-max-width: 380px;
+.men-img {
+  max-width: 380px;
 }
 /* Humburger Icon Color */
 .navbar-toggler-icon {
   filter: invert(0) brightness(0); /* Ensures the icon is black */
 }
-.main-content-div{
+.main-content-div {
   margin-top: 140px;
 }
-.cursor{
- cursor: pointer;
+.cursor {
+  cursor: pointer;
 }
-/* From Uiverse.io by joe-herbert */ 
+/* From Uiverse.io by joe-herbert */
 .cta {
   border: none;
   background: none;
@@ -41,9 +38,9 @@ max-width: 380px;
   font-size: 16px;
   text-transform: uppercase;
   position: relative;
-  color: #7A1FA2 ;
+  color: #7a1fa2;
   padding-bottom: 10px;
-  transition: none; 
+  transition: none;
 }
 
 .cta::after {
@@ -53,7 +50,7 @@ max-width: 380px;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #5E17EB;
+  background-color: #5e17eb;
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
@@ -62,7 +59,7 @@ max-width: 380px;
 .cta:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  color:  #5E17EB;
+  color: #5e17eb;
 }
 
 .cta:hover {
@@ -82,7 +79,6 @@ max-width: 380px;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
- 
 }
 
 .para {
@@ -146,10 +142,10 @@ max-width: 380px;
     opacity: 1;
   }
 }
-.colour{
-  color: #6A0DAD !important;
+.colour {
+  color: #6a0dad !important;
 }
-/* From Uiverse.io by krlozCJ */ 
+/* From Uiverse.io by krlozCJ */
 .container {
   position: relative;
   --size-button: 40px;
@@ -165,8 +161,9 @@ max-width: 380px;
   outline: none;
   width: var(--size-button);
   transition: all ease 0.3s;
-  background-color: #191A1E;
-  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%), inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
+  background-color: #191a1e;
+  box-shadow: 1.5px 1.5px 3px #0e0e0e, -1.5px -1.5px 3px rgb(95 94 94 / 25%),
+    inset 0px 0px 0px #0e0e0e, inset 0px -0px 0px #5f5e5e;
   border-radius: 50px;
   cursor: pointer;
 }
@@ -175,15 +172,14 @@ max-width: 380px;
 .input:not(:invalid) {
   width: 200px;
   cursor: text;
-  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
+  box-shadow: 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%),
+    inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e;
 }
 
 .input:focus + .icon,
 .input:not(:invalid) + .icon {
   pointer-events: all;
   cursor: pointer;
- 
- 
 }
 
 .container .icon {
@@ -200,8 +196,8 @@ max-width: 380px;
   width: 100%;
   height: 100%;
 }
- /* Toggle Dark & Light Mode  */
-/* From Uiverse.io by RiccardoRapelli */ 
+/* Toggle Dark & Light Mode  */
+/* From Uiverse.io by RiccardoRapelli */
 .switch {
   position: relative;
   display: inline-block;
@@ -474,28 +470,26 @@ max-width: 380px;
     transform: scale(1);
   }
 }
- /* Main Container Adjustment */
+/* Main Container Adjustment */
 @media (max-width: 768px) {
   .heading {
     margin-top: -70px !important; /* Mobile ke liye extra space adjust karein */
   }
 }
-/* From Uiverse.io by Yaya12085 */ 
-
+/* From Uiverse.io by Yaya12085 */
 
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
-
 }
-
 
 [data-theme="dark"] {
   --background-color: #121212;
   --text-color: #ffffff;
 }
 
-body,.navbar-expand {
+body,
+.navbar-expand {
   background-color: var(--background-color);
   color: var(--text-color);
   transition: var(--background-color) 0.3s, color 0.3s;
@@ -539,35 +533,41 @@ body,.navbar-expand {
 }
 .contact-form textarea {
   resize: none;
-  
 }
-.cursor1{
+.cursor1 {
   position: relative;
   width: 24em;
   margin: 0 auto;
   color: #666666;
-  border-right: 2px solid rgba(255,255,255,.75);
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   white-space: nowrap;
 
   overflow: hidden;
-  transform: translateY(-50%);    
+  transform: translateY(-50%);
 }
 /* Animation */
 .typewriter-animation {
-animation: 
-  typewriter 5s steps(50) 1s 1 normal both, 
-  blinkingCursor 500ms steps(50) infinite normal;
+  animation: typewriter 5s steps(50) 1s 1 normal both,
+    blinkingCursor 500ms steps(50) infinite normal;
 }
 @keyframes typewriter {
-from { width: 0; }
-to { width: 100%; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
-@keyframes blinkingCursor{
-from { border-right-color: rgba(255,255,255,.75); }
-to { border-right-color: transparent; }
+@keyframes blinkingCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 .skeleton {
@@ -578,8 +578,12 @@ to { border-right-color: transparent; }
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .skeleton-text {
@@ -600,19 +604,32 @@ to { border-right-color: transparent; }
 }
 
 .accordion-collapse {
-  max-height: 0;
-  overflow: hidden;
+  height: 0; /* Direct height use karo */
+  overflow: hidden; /* Close hone pe hidden */
   opacity: 0;
-  transform: translateY(50px) scale(0.95); /* Pehle content neeche aur thoda chhota hoga */
-  transition: max-height 0.6s ease-in-out, 
-              opacity 0.6s ease-in-out, 
-              transform 0.6s ease-in-out;
+  transform: translateY(10px) scale(0.98);
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    transform 0.5s ease-in-out;
 }
 
 .accordion-collapse.show {
-  max-height: 1000px; /* Adjust according to content */
+  height: auto; /* Directly height adjust */
   opacity: 1;
-  transform: translateY(0) scale(1); /* Content smoothly upar aayega aur normal size ho jayega */
+  transform: translateY(0) scale(1);
 }
 
 
+.contify {
+  height: 700px;
+  min-height: 700px;
+}
+
+.accordion-button::after {
+  display: none !important; /* Default Bootstrap dropdown icon hatane ke liye */
+}
+.gallery-item img {
+  width: 100%;            /* Full width le le */
+  height: auto;           /* Height adjust ho */
+  aspect-ratio: 1 / 1;    /* Square ratio maintain ho */
+  object-fit: cover;      /* Stretch na ho, crop ho */
+}
