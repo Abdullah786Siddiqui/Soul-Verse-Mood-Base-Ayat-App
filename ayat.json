@@ -1,236 +1,286 @@
 [
- 
   {
-     "id": 1,
-     "category": "Sad",
-     "para": 23,
-     "surah": "Az-Zumar",
-     "ayat":"۞ قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ ٥٣",
-     "translation_eng":"Say, ˹O Prophet, that Allah says,˺ “O My servants who have exceeded the limits against their souls! Do not lose hope in Allah’s mercy, for Allah certainly forgives all sins.1 He is indeed the All-Forgiving, Most Merciful.",
-     "translation_urdu": "کہہ دو: اے میرے بندو! جنہوں نے اپنی جانوں پر زیادتی کی ہے، اللہ کی رحمت سے مایوس نہ ہو، بے شک اللہ سب گناہ معاف کر دیتا ہے، وہ بے شک بخشنے والا اور مہربان ہے۔"
-  },{
-     "id": 2,
-     "category": "Sad",
-     "para": 3,
-     "surah": "Al-Imran",
-     "ayat":"وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ ١٣٩",
-     "translation_eng":"Do not falter or grieve, for you will have the upper hand, if you are ˹true˺ believers.",
-     "translation_urdu": "تو تم غمگین نہ ہو، تم ہی غالب رہو گے اگر تم ایمان رکھتے ہو"
+    "id": 1,
+    "category": "Sad",
+    "para": 24,
+    "Ayatno": 53,
+    "Surahno": 39,
+    "surah": "Az-Zumar",
+    "ayat": "۞ قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ ٥٣",
+    "translation_eng":"Say: O My servants who have wronged themselves! Do not lose hope in Allah's mercy. Surely, Allah forgives all sins. Indeed, He is the Most Forgiving, the Most Merciful.",
+    "translation_urdu": "کہہ دو: اے میرے بندو! جنہوں نے اپنی جانوں پر زیادتی کی ہے، اللہ کی رحمت سے مایوس نہ ہو، بے شک اللہ سب گناہ معاف کر دیتا ہے، وہ بے شک بخشنے والا اور مہربان ہے۔"
+  },
+  {
+    "id": 2,
+    "category": "Sad",
+    "para": 4,
+    "Ayatno": 139,
+    "Surahno": 3,
+    "surah": "Al-Imran",
+    "ayat": "وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ ",
+    "translation_eng":"And do not be weak, and do not be sad. You will surely be victorious if you are true believers.",
+    "translation_urdu":"اور نہ  کمزور  بنو اور نہ  غم  کرو اور تم ہی  غالب رہو گے اگر تم مومن ہو ۔"
   },
   {
     "id": 3,
     "category": "Sad",
-    "para": 12,
+    "AYATnotmatch": "",
+    "para": 13,
+    "Ayatno": 87,
+    "Surahno": 12,
     "surah": "Al-Yousuf",
-    "ayat":"إِنَّهُ لَا يَيْئَسُ مِن رَّوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ",
-    "translation_eng":" no one despairs of relief from Allah except the disbelieving people.",
-    "translation_urdu": "بے شک اللہ کی رحمت سے وہی مایوس ہوتے ہیں جو کافر ہیں۔"
- },
+    "ayat": "إِنَّهُ لَا يَيْئَسُ مِن رَّوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ",
+    "translation_eng": "And do not lose hope in Allah’s mercy. Surely, only disbelievers lose hope in Allah’s mercy.",
+    "translation_urdu":"اور اللہ کی رحمت سے ناامید نہ ہو ۔  یقین  جانو ، اللہ کی رحمت سے وہی لوگ نا  امید  ہوتے ہیں جو کافر ہیں ۔"
+  },
   {
     "id": 4,
     "category": "Sad",
-    "para": 3,
-    "surah": "At-Toba",
-    "ayat":"وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ ٥١",
-    "translation_eng":"He is our Protector.” So in Allah let the believers put their trust.",
-    "translation_urdu": "مومنوں کوتواللہ تعالٰی کی ذات  پاک  پر ہی بھروسہ کرنا چاہیے" 
- },
- {
-  "id": 5,
-  "category": "Sad",
-  "para": 14,
-  "surah": "Al-Hajr",
-  "ayat":"وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ",
-  "translation_eng":"We certainly know that your heart is truly distressed by what they say",
-  "translation_urdu":"اور بے شک ہم جانتے ہیں کہ جو کچھ وہ کہتے ہیں، اس سے تمہارا دل تنگ ہوتا ہے۔"
-},
- {
-  "id": 6,
-  "category": "Sad",
-  "para": 8,
-  "surah": "Al-A’raf  ",
-  "ayat":"وَٱذۡكُر رَّبَّكَ فِي نَفۡسِكَ تَضَرُّعٗا وَخِيفَةٗ وَدُونَ ٱلۡجَهۡرِ مِنَ ٱلۡقَوۡلِ بِٱلۡغُدُوِّ وَٱلۡأٓصَالِ وَلَا تَكُن مِّنَ ٱلۡغَٰفِلِينَ"
-  ,
-  "translation_eng":"And remember your Lord within yourself in humility and in fear without being apparent in speech – in the mornings and the evenings. And do not be among the heedless.",
-  "translation_urdu":"اور اے شخص! اپنے رب کی  یاد  کیا کر اپنے  دل  میں  عاجزی  کے ساتھ اور خوف کے ساتھ اور زور کی  آواز  کی نسبت  کم  آوازکے ساتھ صبح اور  شام  اور اہل غفلت میں سے مت ہونا ۔"
-},
+    "para": 4,
+    "AYATnotmatch": "",
+    "Ayatno": 122,
+    "Surahno": 3,
+    "surah": "Al-Imran",
+    "ayat": "وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ ٥١",
+    "translation_eng": "And the believers should put their trust in Allah alone.",
+    "translation_urdu": "اور مومنوں کو اللہ ہی پر بھروسہ رکھنا چاہئے ۔"
+  },
+  {
+    "id": 5,
+    "category": "Sad",
+    "para": 14,
+    "Ayatno": 97,
+    "Surahno": 15,
+    "surah": "Al-Hajr",
+    "ayat": "وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ",
+    "translation_eng":"And We know that what they say makes your heart feel distressed.",
+    "translation_urdu": "اور ہم کو معلوم ہے کہ جو کچھ وہ کہتے ہیں ، اس سے تمہارا  دل   تنگ  ہوتا ہے ۔"
+  },
+  {
+    "id": 6,
+    "category": "Sad",
+    "para": 9,
+    "surah": "Al-A’raf",
+    "Ayatno": 205,
+    "Surahno": 7,
+    "ayat": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًۭا وَخِيفَةًۭ وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْـَٔاصَالِ وَلَا تَكُن مِّنَ ٱلْغَـٰفِلِينَ ٢٠٥ ",
+    "translation_eng": "And remember your Lord morning and evening in your heart, with humility and fear, and in a low voice. And do not be among the heedless.",
+    "translation_urdu": "اور اپنے رب کو صبح وشام  یاد  کرو اپنے  دل  میں ،  عاجزی  اور خوف کے ساتھ اور پست  آواز  سے اور غافلوں میں سے نہ بنو۔"
+  },
   {
     "id": 7,
     "category": "Anxious",
     "para": 13,
+    "Ayatno": 28,
+    "Surahno": 13,
     "surah": "Ar-Ra’d ",
-    "ayat":"ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ ٢٨",
-    "translation_eng":"Those who believe and whose hearts find comfort in the remembrance of Allah. Surely in the remembrance of Allah do hearts find comfort.",
-    "translation_urdu": "جو لوگ ایمان لائے اور ان کے دل اللہ کے ذکر سے چین پاتے ہیں، سن لو! اللہ ہی کے ذکر سے دلوں کو چین ملتا ہے"
- },
- {
-  "id": 8,
-  "category": "Anxious",
-  "para": 3,
-  "surah": "Ar-Imran ",
-  "ayat":"حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
-  "translation_eng":" “Allah ˹alone˺ is sufficient ˹as an aid˺ for us and ˹He˺ is the best Protector.",
-  "translation_urdu": "اللہ ہمارے لیے کافی ہے اور وہ بہترین کارساز ہے۔"
-},
- {
-  "id": 9,
-  "category": "Anxious",
-  "para": 11,
-  "surah": "At-Toba",
-  "ayat":"۞ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ",
-  "translation_eng":"Do not worry; Allah is certainly with us.",
-  "translation_urdu": "غم نہ کھا، بے شک اللہ ہمارے ساتھ ہے۔"
-},
-{
-  "id": 10,
-  "category": "Anxious",
-  "para": 9,
-  "surah": "Al-Anfal",
-  "ayat":"وَاصْبِرُوا إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
-  "translation_eng":" Persevere! Surely Allah is with those who persevere.",
-  "translation_urdu":"اور صبر کرو، بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔"
-},
-{
-  "id": 11,
-  "category": "Anxious",
-  "para": 26,
-  "surah": "Ash-Sharh",
-  "ayat":"۞ فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا,إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا  ",
-  "translation_eng":"So, surely with hardship comes ease.Surely with ˹that˺ hardship comes ˹more˺ ease.",
-  "translation_urdu": "بے شک ہر مشکل کے بعد آسانی ہے، ہر تکلیف کے بعد راحت ہے۔"
-},
-{
-  "id": 12,
-  "category": "Anxious",
-  "para": 1,
-  "surah": "Al-Baqarah",
-  "ayat":"۞ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ",
-  "translation_eng":"Allah does not require of any soul more than what it can afford.",
-  "translation_urdu": "اللہ کسی جان پر بوجھ نہیں ڈالتا مگر اس کی طاقت کے مطابق"
-},
-{
-  "id": 13,
-  "category": "Anxious",
-  "para": 28,
-  "surah": "At-Talaq",
-  "ayat":"۞وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
-  "translation_eng":"And whoever puts their trust in Allah, then He ˹alone˺ is sufficient for them.",
-  "translation_urdu": "اور جو اللہ پر بھروسہ کرے تو وہ اسے کافی ہے۔"
-},
-{
-  "id": 14,
-  "category": "Anxious",
-  "para": 14,
-  "surah": "An-Nahl",
-  "ayat":"وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ ۚ وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِي ضِيقٍ مِّمَّا يَمْكُرُونَ",
-  "translation_eng":"Be patient ˹O Prophet˺, for your patience is only with Allah’s help. Do not grieve over those ˹who disbelieve˺, nor be distressed by their schemes.",
-  "translation_urdu": "اور صبر کرو، اور تمہارا صبر صرف اللہ کی مدد سے ہے، اور ان لوگوں کی سازشوں پر غم نہ کرو اور نہ ہی دل تنگ کرو۔"
-},
-{
-  "id": 15,
-  "category": "Anxious",
-  "para": 11,
-  "surah": "At-Toba",
-  "ayat":"۞قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
-  "translation_eng":"Say, “Nothing will ever befall us except what Allah has destined for us. He is our Protector.” So in Allah let the believers put their trust.",
-  "translation_urdu": "کہو! ہمیں ہرگز کوئی تکلیف نہیں پہنچ سکتی، مگر وہی جو اللہ نے ہمارے لیے لکھ دی ہے، وہی ہمارا مالک ہے، اور مومنوں کو اللہ ہی پر بھروسہ کرنا چاہیے۔"
-},
-{
-  "id": 16,
-  "category": "Angry",
-  "para": 7,
-  "surah": "Al-A'raf",
-  "ayat":"خُذِ ٱلْعَفْوَ وَأْمُرْ بِٱلْعُرْفِ وَأَعْرِضْ عَنِ ٱلْجَـٰهِلِينَ ١٩٩",
-  "translation_eng":"Be gracious, enjoin what is right, and turn away from those who act ignorantly.",
-  "translation_urdu": "معاف کردو، اچھے کاموں کا حکم دو، اور جاہلوں سے منہ موڑ لو۔"
-},
-{
-  "id": 17,
-  "category": "Angry",
-  "para": 3,
-  "surah": "Al-Imran",
-  "ayat":"وَالْكَاظِمِينَ الْغَيْظَ وَالْعَافِينَ عَنِ النَّاسِ ۗ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
-  "translation_eng":"˹They are˺ those who donate in prosperity and adversity, control their anger, and pardon others. And Allah loves the good-doers.",
-  "translation_urdu":"اور وہ لوگ جو غصے کو پی جاتے ہیں اور دوسروں کو معاف کر دیتے ہیں، اور اللہ نیک لوگوں سے محبت کرتا ہے۔"
-},
+    "ayat": "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ ٢٨",
+    "translation_eng": "Those who believe and find peace in the remembrance of Allah—listen! Only in the remembrance of Allah do hearts find peace.",
+    "translation_urdu": "وہ جو ایمان لائے اور ان کے  دل  اللہ کی  یاد  سے چین پاتے ہیں ، سن لو اللہ کی  یاد  ہی میں دلوں کا چین ہے"
+  },
+  {
+    "id": 8,
+    "category": "Anxious",
+    "para": 3,
+    "AYATnotmatch": "",
+    "surah": "Ar-Imran",
+    "Ayatno": 173,
+    "Surahno": 3,
+    "ayat":" وَقَالُوا۟ حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ ١٧٣",
+    "translation_eng": "Allah is sufficient for us, and He is the best disposer of affairs.",
+    "translation_urdu": "اللہ ہمارے لیے کافی ہے اور وہ بہترین کارساز ہے۔"
+  },
+  {
+    "id": 9,
+    "category": "Anxious",
+    "para": 10,
+    "AYATnotmatch": "",
+    "Ayatno": 40,
+    "Surahno": 9,
+    "surah": "At-Toba",
+    "ayat": "۞ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ",
+    "translation_eng": "Do not worry; Allah is certainly with us.",
+    "translation_urdu": "غم نہ کھا، بے شک اللہ ہمارے ساتھ ہے۔"
+  },
+  {
+    "id": 10,
+    "category": "Anxious",
+    "para": 10,
+    "AYATnotmatch": "",
+    "Ayatno": 46,
+    "Surahno": 8,
+    "surah": "Al-Anfal",
+    "ayat": "وَاصْبِرُوا إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+    "translation_eng": " Persevere! Surely Allah is with those who persevere.",
+    "translation_urdu": "اور صبر کرو، بے شک اللہ صبر کرنے والوں کے ساتھ ہے۔"
+  },
+  {
+    "id": 11,
+    "category": "Anxious",
+    "para": 30,
+    "Ayatno": 5,
+    "Surahno": 94,
+    "surah": "Ash-Sharh",
+    "ayat": "۞ فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ",
+    "translation_eng": "Surely, with every hardship comes ease.",
+    "translation_urdu": "بے شک ہر مشکل کے بعد آسانی ہے "
+  },
+  {
+    "id": 12,
+    "category": "Anxious",
+    "para": 3,
+    "AYATnotmatch": "",
+    "Ayatno": 286,
+    "Surahno": 2,
+    "surah": "Al-Baqarah",
+    "ayat": "۞ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ",
+    "translation_eng": "Allah does not require of any soul more than what it can afford.",
+    "translation_urdu": "اللہ کسی جان پر بوجھ نہیں ڈالتا مگر اس کی طاقت کے مطابق"
+  },
+  {
+    "id": 13,
+    "category": "Anxious",
+    "para": 28,
+    "Ayatno": 3,
+    "Surahno": 65,
+    "surah": "At-Talaq",
+    "ayat":" وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍۢ قَدْرًۭا ٣",
+    "translation_eng":"Allah provides for him from where he does not even expect. And whoever puts his trust in Allah, He is sufficient for him. Surely, Allah will accomplish His command. Indeed, Allah has set a measure for everything.",
+    "translation_urdu": "اللہ اسے ایسی  جگہ  سے روزی دیتا ہے جس کا اسے  گمان  بھی نہ ہو اور جو شخص اللہ پر توکل کرے گا اللہ اسے  کافی  ہوگا ۔ اللہ تعالٰی اپنا  کام  پورا کر کے ہی رہے گا اللہ تعالٰی نے ہرچیز کا ایک  اندازہ   مقرر  کر رکھا ہے ۔"
+  },
+  {
+    "id": 14,
+    "category": "Anxious",
+    "para": 14,
+    "surah": "An-Nahl",
+    "Ayatno": 127,
+    "Surahno": 16,
+    "ayat": "وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ ۚ وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِي ضِيقٍ مِّمَّا يَمْكُرُونَ",
+    "translation_eng": "And be patient, for your patience is only with Allah’s help. And do not grieve over their plots, nor let your heart feel distressed.",
+    "translation_urdu": "اور صبر کرو، اور تمہارا صبر صرف اللہ کی مدد سے ہے، اور ان لوگوں کی سازشوں پر غم نہ کرو اور نہ ہی دل تنگ کرو۔"
+  },
+  {
+    "id": 15,
+    "category": "Anxious",
+    "para": 11,
+    "Ayatno": 51,
+    "Surahno": 9,
+    "surah": "At-Toba",
+    "ayat": "۞قُل لَّن يُصِيبَنَا إِلَّا مَا كَتَبَ اللَّهُ لَنَا هُوَ مَوْلَانَا وَعَلَى اللَّهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُونَ",
+    "translation_eng": "Say: Nothing will befall us except what Allah has decreed for us. He is our protector, and upon Allah alone should the believers rely.",
+    "translation_urdu": "کہہ دو کہ : اللہ نے ہمارے مقدر میں جو  تکلیف  لکھ دی ہے ، ہمیں اس کے سوا کوئی اور  تکلیف  ہرگز نہیں پہنچ سکتی ۔ وہ ہمارا رکھوالا ہے ، اور اللہ ہی پر مومنوں کو بھروسہ رکھنا چاہیے ۔"
+  },
+  {
+    "id": 16,
+    "category": "Angry",
+    "para": 8,
+    "Ayatno": 199,
+    "Surahno": 7,
+    "surah": "Al-A'raf",
+    "ayat": "خُذِ ٱلْعَفْوَ وَأْمُرْ بِٱلْعُرْفِ وَأَعْرِضْ عَنِ ٱلْجَـٰهِلِينَ ١٩٩",
+    "translation_eng":"Forgive, encourage what is good, and turn away from the ignorant.",
+    "translation_urdu": "درگذر کرو ،  نیکی  کا  حکم  دو اور جاہلوں سے ایک  کنارہ  ہوجائیں"
+  },
+  {
+    "id": 17,
+    "category": "Angry",
+    "para": 3,
+    "Ayatno": 134,
+    "Surahno": 3,
+    "surah": "Al-Imran",
+    "ayat":" ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+    "translation_eng": "Those who spend in the way of Allah in both ease and hardship, who control their anger, and who forgive people—Allah loves those who do good.",
+    "translation_urdu":" جو لوگ آسانی میں اور  سختی  کے موقع پر بھی اللہ کے راستے میں  خرچ  کرتے ہیں ، غصّہ پینے والے اور لوگوں سے درگُزر کرنے والے ہیں ، اللہ تعالیٰ ان  نیک  کاروں سے  محبت  کرتا ہے ۔"
+  },
 
-{
-  "id": 18,
-  "category": "Angry",
-  "para": 18,
-  "surah": "Al-Furqan",
-  "ayat":"وَعِبَادُ ٱلرَّحْمَـٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَـٰهِلُونَ قَالُوا۟ سَلَـٰمًۭا ٦٣",
-  "translation_eng":"The ˹true˺ servants of the Most Compassionate are those who walk on the earth humbly, and when the foolish address them ˹improperly˺, they only respond with peace.",
-  "translation_urdu":" ور رحمان کے بندے وہ ہیں جو زمین پر نرمی سے چلتے ہیں، اور جب جاہل ان سے بات کرتے ہیں تو وہ کہتے ہیں: 'سلامتی ہو۔'"
+  {
+    "id": 18,
+    "category": "Angry",
+    "para": 18,
+    "Ayatno": 63,
+    "Surahno": 25,
+    "surah": "Al-Furqan",
+    "ayat": "وَعِبَادُ ٱلرَّحْمَـٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَـٰهِلُونَ قَالُوا۟ سَلَـٰمًۭا ٦٣",
+    "translation_eng": "And the servants of the Most Merciful are those who walk upon the earth humbly, and when the ignorant address them (harshly), they respond with words of peace.",
+    "translation_urdu": "اور رحمن کے بندے وہ ہیں جو  زمین  پر  عاجزی  سے چلتے ہیں ، اور جب جاہل لوگ ان سے ( جاہلانہ ) خطاب کرتے ہیں تو وہ سلامتی کی  بات  کہتے ہیں ۔  "
+  },
 
+  {
+    "id": 19,
+    "category": "Happiness",
+    "para": 9,
+    "Ayatno": 4,
+    "Surahno": 8,
+    "surah": "Al-Anfal",
+    "ayat": "أُو۟لَـٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُمْ دَرَجَـٰتٌ عِندَ رَبِّهِمْ وَمَغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ",
+    "translation_eng": "These are the true believers. For them are ranks with their Lord, forgiveness, and an honorable provision.",
+    "translation_urdu": "یہی لوگ سچے مومن ہیں، ان کے لیے ان کے رب کے پاس درجے ہیں، اور بخشش ہے، اور عزت والا رزق ہے۔"
+  },
+  {
+    "id": 20,
+    "category": "Happiness",
+    "para": 14,
+    "Ayatno": 97,
+    "Surahno": 16,
+    "surah": "An-Nahl",
+    "ayat": "مَنْ عَمِلَ صَـٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَلَنُحْيِيَنَّهُۥ حَيَوٰةًۭ طَيِّبَةًۭ ۖ وَلَنَجْزِيَنَّهُمْ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ ٩٧",
+    "translation_eng": "Whoever does righteous deeds, whether male or female, while being a believer, We will surely grant them a good and pure life, and We will certainly reward them according to the best of their deeds.",
+    "translation_urdu":" جو شخص  نیک  عمل کرے  مرد  ہو یا  عورت  ، لیکن با ایمان ہو تو ہم اُسے یقیناً نہایت بہتر زندگی عطا فرمائیں گے اور ان کے  نیک   اعمال  کا بہتر  بدلہ  بھی انہیں ضرور ضرور دیں گے ۔"
+  },
+  {
+    "id": 21,
+    "category": "Happiness",
+    "para": 11,
+    "Ayatno": 62,
+    "Surahno": 10,
+    "surah": "An-Yunus",
+    "ayat": "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+    "translation_eng": "Know that the friends of Allah will have no fear, nor will they grieve.",
+    "translation_urdu": "یاد رکھو کہ جو اللہ کے  دوست  ہیں ، ان کو نہ کوئی خوف ہوگا ، نہ وہ غمگین ہوں گے ۔گے۔"
+  },
+  {
+    "id": 22,
+    "category": "Happiness",
+    "para": 4,
+    "Ayatno": 69,
+    "Surahno": 4,
+    "surah": "An-Nisa ",
+    "ayat": "وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُوْلَـٰٓئِكَ مَعَ ٱلَّذِينَ أَنۡعَمَ ٱللَّهُ عَلَيۡهِم مِّنَ ٱلنَّبِيِّـۧنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّـٰلِحِينَۚ وَحَسُنَ أُوْلَـٰٓئِكَ رَفِيقٗا",
+    "translation_eng":"And whoever obeys Allah and His Messenger will be with those whom Allah has blessed—the prophets, the truthful, the martyrs, and the righteous. And what excellent companions they are!",
+    "translation_urdu": "اور جو اللہ اور اس کے رسول کی اطاعت کرے گا، تو وہ ان لوگوں کے ساتھ ہوگا جن پر اللہ نے انعام فرمایا، یعنی انبیا، صدیقین، شہدا اور صالحین کے ساتھ، اور یہ بہترین رفیق ہیں۔"
+  },
 
-},
-
-
-
-{
-  "id": 19,
-  "category": "Happiness",
-  "para": 28,
-  "surah": "Al-Anfal",
-  "ayat":"أُو۟لَـٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُمْ دَرَجَـٰتٌ عِندَ رَبِّهِمْ وَمَغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ",
-  "translation_eng":"It is they who are the true believers. They will have elevated ranks, forgiveness, and an honourable provision from their Lord.",
-  "translation_urdu":"وہ سچے مومن ہیں۔ ان کے لیے ان کے رب کے ہاں بلند مرتبے ہیں اور مغفرت اور رحمت ہے، اور اللہ بڑا معاف کرنے والا، رحم کرنے والا ہے۔"
-},
-{
-  "id": 20,
-  "category": "Happiness",
-  "para": 14,
-  "surah": "An-Nahl",
-  "ayat":"مَنْ عَمِلَ صَـٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَلَنُحْيِيَنَّهُۥ حَيَوٰةًۭ طَيِّبَةًۭ ۖ وَلَنَجْزِيَنَّهُمْ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ ٩٧",
-  "translation_eng":"Whoever does good, whether male or female, and is a believer, We will surely bless them with a good life, and We will certainly reward them according to the best of their deeds.",
-  "translation_urdu": "جو شخص بھی نیک عمل کرے گا چاہے وہ مرد ہو یا عورت، اور وہ ایمان لائے گا تو ہم اسے بہترین زندگی دیں گے اور اس کے اعمال کے بہترین بدلے دیں گے"
-
-
-},
-{
-  "id": 21,
-  "category": "Happiness",
-  "para": 11,
-  "surah": "An-Yunus",
-  "ayat":"أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
-  "translation_eng":"There will certainly be no fear for the close servants of Allah, nor will they grieve",
-  "translation_urdu": "خبردار! بے شک اللہ کے دوستوں پر نہ کوئی خوف ہوگا اور نہ وہ غمگین ہوں گے۔"
-
-},
-{
-  "id": 22,
-  "category": "Happiness",
-  "para": 4,
-  "surah": "An-Nisa ",
-  "ayat":"وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُوْلَـٰٓئِكَ مَعَ ٱلَّذِينَ أَنۡعَمَ ٱللَّهُ عَلَيۡهِم مِّنَ ٱلنَّبِيِّـۧنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّـٰلِحِينَۚ وَحَسُنَ أُوْلَـٰٓئِكَ رَفِيقٗا",
-  "translation_eng":"And whoever obeys Allah and the Messenger – those will be with the ones upon whom Allah has bestowed favor of the prophets, the steadfast affirmers of truth, the martyrs and the righteous. And excellent are those as companions.",
-  "translation_urdu":"اور جو بھی اللہ تعالیٰ کی اور رسول (صلی اللہ علیہ وسلم) کی فرمانبرداری کرے، وه ان لوگوں کے ساتھ ہوگا جن پر اللہ تعالیٰ نے انعام کیا ہے، جیسے نبی اور صدیق اور شہید اور نیک لوگ، یہ بہترین رفیق ہیں"
-
-
-},
-{
-  "id": 23,
-  "category": "Thankful",
-  "para": 13,
-  "surah": "Ibrahim ",
-  "ayat":"وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ ٧",
-  "translation_eng":"And ˹remember˺ when your Lord proclaimed, ‘If you are grateful, I will certainly give you more. But if you are ungrateful, surely My punishment is severe.’”",
-  "translation_urdu":"اگر تم شکر ادا کرو گے تو میں تمہیں اور زیادہ دوں گا، اور اگر ناشکری کرو گے تو میرا عذاب سخت ہے۔"
-
-
-},{
-  "id": 24,
-  "category": "Thankful",
-  "para": 2,
-  "surah": "Al-Baqarah",
-  "ayat": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ",
-  "translation_eng": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
-  "translation_urdu": "پس تم میرا ذکر کرو، میں تمہارا ذکر کروں گا، اور میرا شکر ادا کرو اور ناشکری نہ کرو۔"
-}
-
-
-
-
-
+  {
+    "id": 23,
+    "category": "Thankful",
+    "para": 2,
+    "Ayatno": 152,
+    "Surahno": 2,
+    "surah": "Al-Baqarah",
+    "ayat": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ",
+    "translation_eng": "So remember Me; I will remember you. And be grateful to Me and do not deny Me.",
+    "translation_urdu": "پس تم میرا ذکر کرو، میں تمہارا ذکر کروں گا، اور میرا شکر ادا کرو اور ناشکری نہ کرو۔"
+  },
+  {
+    "id": 24,
+    "category": "Thankful",
+    "para": 14,
+    "Ayatno": 7,
+    "Surahno": 14,
+    "surah": "Ibrahim",
+    "ayat": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ ٧",
+    "translation_eng": "And ˹remember˺ when your Lord proclaimed, ‘If you are grateful, I will certainly give you more. But if you are ungrateful, surely My punishment is severe.’”",
+    "translation_urdu": "اگر تم شکر ادا کرو گے تو میں تمہیں اور زیادہ دوں گا، اور اگر ناشکری کرو گے تو میرا عذاب سخت ہے۔"
+  },
+  {
+    "id": 25,
+    "category": "Anxious",
+    "para": 30,
+    "Ayatno": 6,
+    "Surahno": 94,
+    "surah": "Ash-Sharh",
+    "ayat": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا",
+    "translation_eng": "Indeed! With every hardship comes ease.",
+    "translation_urdu": " ہر تکلیف کے بعد راحت ہے۔"
+  }
 ]

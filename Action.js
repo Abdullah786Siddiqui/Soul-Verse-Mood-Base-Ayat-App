@@ -39,6 +39,7 @@ let getAyatByMood = (mood, DefaultTrans = false) => {
     // agar save favorite ayat ke id existing ayat jo web pr show ho rahi hey os se milte hey to heart true yani red colour show krdo
     heartIcon = true;
   }
+  let Ayaton = true;
   // Ayat ka Skeleton dekhe ga pehle
   Ayatbox.innerHTML = ` <div class="d-flex justify-content-end mb-3">
   <div class="skeleton skeleton-box"></div>
@@ -60,6 +61,18 @@ let getAyatByMood = (mood, DefaultTrans = false) => {
     Ayatbox.innerHTML = `
   <div class="d-flex justify-content-between align-items-center mb-3">
   <div class="d-flex align-items-center gap-2 favorite-btn fs-1">
+
+
+
+<audio class="ayatAudio" data-src="" preload="auto" ></audio>
+
+    <div  class="text-muted cursor playaudio">
+    <i id="icon-btn" class="fa-solid fa-play fs-1" > </i>
+    </div>
+
+
+
+
   <div id="heart" class="cursor"  data-toggle="modal" data-target=".bd-example-modal-sm">
 
   <div> 
@@ -88,7 +101,7 @@ style="${heartIcon ? "color: #ff0808" : "color:  #666666"}"
   </p>
 
   <!-- Translation -->
-  <p class="translation fs-4 fw-semibold text-secondary mt-3 text-justify">
+  <p style="font-family: 'Jameel Nastaliq'; font-size: 27px;" class="translation  fw-semibold text-secondary mt-3  text-justify">
     ${DefaultTrans ? Ayat.translation_eng : Ayat.translation_urdu}
   </p>
 
@@ -99,6 +112,89 @@ style="${heartIcon ? "color: #ff0808" : "color:  #666666"}"
     </button>
    
   </div>`;
+    // Ayat Audio
+
+      let savedTime = 0;
+
+  
+    Ayatbox.querySelector(".playaudio").addEventListener("click", function () {
+      async function playAyat(surah, ayah) {
+        try {
+          let url = `https://api.alquran.cloud/v1/ayah/${surah}:${ayah}/ar.alafasy`;
+          let response = await fetch(url);
+          let data = await response.json();
+
+          let audioElement = Ayatbox.querySelector(".ayatAudio");
+          audioElement.addEventListener("ended", function () {
+            IconBtn.classList = "fa-solid fa-play ";
+          });
+          let audioSrc = data.data.audio;
+          console.log(audioSrc);
+          let IconBtn = Ayatbox.querySelector("#icon-btn");
+          if (
+            !audioElement.getAttribute("data-src") ||
+            audioElement.getAttribute("data-src") !== audioSrc
+          ) {
+            audioElement.src = audioSrc;
+            audioElement.setAttribute("data-src", audioSrc);
+            await audioElement.load();
+            savedTime = 0;
+          }
+        
+
+          if (Ayaton) {
+            audioElement.currentTime = savedTime;
+            await audioElement.play();
+            IconBtn.classList = "fa-solid fa-pause text-black";
+            Ayaton = false;
+          } else {
+            savedTime = audioElement.currentTime;
+            await audioElement.pause();
+            IconBtn.classList = "fa-solid fa-play   ";
+            Ayaton = true;
+          }
+        } catch (error) {
+          console.error("Ayat Audio not Found");
+        }
+      }
+      playAyat(Ayat.Surahno, Ayat.Ayatno);
+    });
+
+    // Ayatbox.querySelector(".playaudio").addEventListener("click", playAyat(2,255))
+    //  let srcAudio;
+    //   let audio = Ayatbox.querySelector(".audioplayer");
+    //   let btn = Ayatbox.querySelector(".playaudio");
+    //      async function playAyat(surah, ayah) {
+    //         let url = `https://api.alquran.cloud/v1/ayah/${surah}:${ayah}/ar.alafasy`;
+    //         let response = await fetch(url);
+    //         let data = await response.json();
+
+    //         let audio = new Audio(data.data.audio);
+    //         srcAudio = audio
+
+    //       }
+
+    // Ayatbox.querySelector(".playaudio").addEventListener("click", function () {
+    //   let url = `https://api.alquran.cloud/v1/ayah/${Ayat.Surahno}:${Ayat.Ayatno}/ar.alafasy`;
+    //   fetch(url)
+    //     .then((res) => res.json())
+    //     .then((data) => {
+    //       let audio = new Audio(data.data.audio);
+    //       let audioplayer = Ayatbox.querySelector(".audioplayer");
+    //       if (audio.paused) {
+    //         audio.play();
+    //         // btn.innerHTML = "⏸ Pause";
+    //       } else {
+    //         audio.pause()
+    //         // btn.innerHTML = "▶ Play";
+    //       }
+
+    //     });
+    // });
+
+    // document.querySelector(".playaudio").addEventListener("click", function () {
+
+    // });
 
     // ye function Heart btn ko handle krta hey
     Ayatbox.querySelector("#heart").addEventListener("click", function (e) {
@@ -111,7 +207,6 @@ style="${heartIcon ? "color: #ff0808" : "color:  #666666"}"
 
       // Ayat already favorite hai ya nahi
       let favoriteIndex = favorites.findIndex((fav) => fav.id === Ayat.id);
-      console.log(favoriteIndex);
 
       if (favoriteIndex !== -1) {
         //  Agar pehle se favorite hai toh remove karo
@@ -170,6 +265,7 @@ style="${heartIcon ? "color: #ff0808" : "color:  #666666"}"
     // next ayat generate krta hey
     document.getElementById("nextayat").addEventListener("click", function () {
       getAyatByMood(mood, DefaultTrans);
+      
     });
     /// Dynamic Selection for Select element
     let translateDropdown = document.getElementById("translate-option");
@@ -294,7 +390,6 @@ function favoritefunc() {
 
     FilterAyat.forEach((Ayat) => {
       let div = document.createElement("div");
-   
 
       div.innerHTML = `<div class="favorite-card mt-2 " data-id="${Ayat.id}">
                 <!-- Ayah Info -->
@@ -355,9 +450,8 @@ if (Scroll) {
   });
 }
 
-
- /// Animation Favorite
- document.addEventListener("DOMContentLoaded", function () {
+/// Animation Favorite
+document.addEventListener("DOMContentLoaded", function () {
   const accordionButtons = document.querySelectorAll(".accordion-button");
 
   accordionButtons.forEach((button) => {
@@ -368,8 +462,12 @@ if (Scroll) {
         if (targetCollapse.classList.contains("show")) {
           const navbarHeight = 55; // Fixed navbar height
           const extraSpacing = 10; // Thoda breathing space dene ke liye
-          const offsetTop = targetCollapse.getBoundingClientRect().top + window.scrollY - navbarHeight - extraSpacing;
-          
+          const offsetTop =
+            targetCollapse.getBoundingClientRect().top +
+            window.scrollY -
+            navbarHeight -
+            extraSpacing;
+
           window.scrollTo({
             top: offsetTop,
             behavior: "smooth",
@@ -380,4 +478,13 @@ if (Scroll) {
   });
 });
 
+/// AYAT AUDIO
+// async function ayataudio() {
+//   let res = await fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions/ben-muhiuddinkhan-lad/5/10.json")
+//   let data = await res.json()
+//  console.log(data);
+ 
+  
+// } 
 
+// ayataudio()

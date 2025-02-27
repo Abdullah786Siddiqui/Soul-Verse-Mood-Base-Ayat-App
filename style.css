@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   background-color: #f5f3ff;
   padding-top: 60px !important;
 }
@@ -632,4 +632,10 @@ body,
   height: auto;           /* Height adjust ho */
   aspect-ratio: 1 / 1;    /* Square ratio maintain ho */
   object-fit: cover;      /* Stretch na ho, crop ho */
+}
+ @font-face {
+  font-family: 'Jameel Nastaliq';
+  src: url('fonts/Jameel\ Noori\ Nastaleeq\ Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
